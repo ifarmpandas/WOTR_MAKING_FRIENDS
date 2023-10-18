@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <WrathPath>F:\Games\SteamLibrary\steamapps\common\Pathfinder Second Adventure</WrathPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
 	<LangVersion>latest</LangVersion>
 	<TargetFramework>net472</TargetFramework>
   </PropertyGroup>
@@ -48,7 +52,7 @@
   
 <ItemGroup>
  	  <!-- Wrath Assemblies -->
-	    <Reference Include="Assembly-CSharp">
+  <Reference Include="Assembly-CSharp">
       <HintPath>$(SolutionDir)lib\Assembly-CSharp.dll</HintPath>
   </Reference>
  	  <Reference Include="Assembly-CSharp-firstpass.dll">
